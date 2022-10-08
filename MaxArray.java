@@ -18,8 +18,7 @@ public class MaxArray {
 	}
 
 	public static int maxfind(int[] arr) {
-		int max = -1;
-
+		int max = Integer.MIN_VALUE;
 		for (int i = 0; i < arr.length; i++) {
 //			System.out.println(max);
 			if (arr[i] > max) {
