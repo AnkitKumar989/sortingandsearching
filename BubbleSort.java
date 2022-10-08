@@ -10,7 +10,7 @@ public class BubbleSort {
 	}
 	public static int[] sorting(int[] arr) {
 		
-		for(int counter=0;counter<arr.length-1;counter++)
+		for(int counter=0;counter<arr.length-1-counter;counter++)
 		{ 
 
 			for(int j=0;j<arr.length-1;j++) {
