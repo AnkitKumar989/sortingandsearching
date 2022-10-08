@@ -13,7 +13,7 @@ public class InsertionSort {
 		for (int counter = 1; counter <= arr.length - 1; counter++) {
 			int val = arr[counter];
 			int j = counter - 1;
-			while (arr[j] > val) {
+			while (j>=0 && arr[j] > val) {
 				arr[j + 1] = arr[j];
 				j--;
 
